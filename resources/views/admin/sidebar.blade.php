@@ -6,43 +6,98 @@
                 <li class="nav-item mt-2">
                     <a class="nav-link active" href="/admin/main">
                         <div class="nav-link-icon"><em class='bx bx-home'></em></div>
-                        Dashboard
+                        Inicio
                     </a>
                 </li>
                 <!-- Sidenav Menu Heading (admin)-->
                 <div class="sidenav-menu-heading">Administacion</div>
                 <!-- Sidenav Link (Home)-->
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <div class="nav-link-icon"><em class='bx bx-user-circle'></em></div>
-                        Perfil
-                    </a>
-                </li>
-                <!-- Sidenav Link (About)-->
                 <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseAbout" aria-expanded="false" aria-controls="collapseAbout">
                     <div class="nav-link-icon"><em class='bx bx-book-alt'></em></div>
-                    About
+                    Configuración
                     <div class="sidenav-collapse-arrow"><em class='bx bx-chevron-down' style="color:gray; font-size:16px;"></em></div>
                 </a>
                 <div class="collapse" id="collapseAbout" data-bs-parent="#accordionSidenav">
                     <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPages">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                            <a class="nav-link" href="#">Educations</a>
-                            <a class="nav-link" href="#">Experiences</a>
+                            <a class="nav-link" href="#">Usuario</a>
+                            <a class="nav-link" href="#">Roles/Permiso</a>
+                            <a class="nav-link" href="#">Informacion de la empresa</a>
+
+                        </li>
+                    </nav>
+                </div>
+                <!-- Sidenav Link (About)-->
+                            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseAbout" aria-expanded="false" aria-controls="collapseAbout">
+                                <div class="nav-link-icon"><em class='bx bx-book-alt'></em></div>
+                                Operaciones
+                                <div class="sidenav-collapse-arrow"><em class='bx bx-chevron-down' style="color:gray; font-size:16px;"></em></div>
+                            </a>
+                            <div class="collapse" id="collapseAbout" data-bs-parent="#accordionSidenav">
+                                <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPages">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Vehiculos</a>
+                                        <a class="nav-link" href="#">Rutas</a>
+                                        <a class="nav-link" href="#">Clientes</a>
+                                        <a class="nav-link" href="#">Cotizar</a>
+                                    </li>
+                                </nav>
+                            </div>
+
+
+                <!-- Sidenav Link (Fcturación-->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseAbout" aria-expanded="false" aria-controls="collapseAbout">
+                    <div class="nav-link-icon"><em class='bx bx-book-alt'></em></div>
+                    Facturación
+                    <div class="sidenav-collapse-arrow"><em class='bx bx-chevron-down' style="color:gray; font-size:16px;"></em></div>
+                </a>
+                <div class="collapse" id="collapseAbout" data-bs-parent="#accordionSidenav">
+                    <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPages">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ver factura </a>
+
+
+                        </li>
+                    </nav>
+                </div>
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseAbout" aria-expanded="false" aria-controls="collapseAbout">
+                    <div class="nav-link-icon"><em class='bx bx-book-alt'></em></div>
+                    Reportes
+                    <div class="sidenav-collapse-arrow"><em class='bx bx-chevron-down' style="color:gray; font-size:16px;"></em></div>
+                </a>
+                <div class="collapse" id="collapseAbout" data-bs-parent="#accordionSidenav">
+                    <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPages">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Vehiculo</a>
+                            <a class="nav-link" href="#">Rutas</a>
+                            <a class="nav-link" href="#">Clientes</a>
+                            <a class="nav-link" href="#">Usuarios</a>
+
+                        </li>
+                    </nav>
+                </div>
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseAbout" aria-expanded="false" aria-controls="collapseAbout">
+                    <div class="nav-link-icon"><em class='bx bx-book-alt'></em></div>
+                    Ayuda
+                    <div class="sidenav-collapse-arrow"><em class='bx bx-chevron-down' style="color:gray; font-size:16px;"></em></div>
+                </a>
+                <div class="collapse" id="collapseAbout" data-bs-parent="#accordionSidenav">
+                    <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPages">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Acerca de nosotros</a>
+
+
                         </li>
                     </nav>
                 </div>
 
 
-                
-                <!-- Sidenav Link (Portafolio)-->
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <div class="nav-link-icon"><em class='bx bx-book-content'></em></div>
-                        Portafolio
-                    </a>
-                </li>
+
+
+
+
+
+
                 <!-- Divider -->
                 <hr class="sidebar-divider">
             </div>
