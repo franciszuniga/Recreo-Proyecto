@@ -29,5 +29,8 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
     Route::get('/usuario', function () {
         return view('admin.usuario.index');
     });
+    Route::get('/usuario/add', function () {
+        return view('admin.usuario.add');
+    });
 });
 
