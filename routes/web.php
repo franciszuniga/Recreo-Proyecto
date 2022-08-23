@@ -26,5 +26,8 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
     Route::get('/main', function () {
         return view('admin.desktop');
     });
-
+    Route::get('/usuario', function () {
+        return view('admin.usuario.index');
+    });
 });
+
