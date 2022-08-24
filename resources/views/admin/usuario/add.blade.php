@@ -41,14 +41,59 @@
                                     </form>
                                 </div>
                             </div>
+                            <br>
                             <form>
-                                <div class="mb-3">
-                                    <label for="disabledTextInputApellidoP" class="form-label">Apellido Paterno</label>
-                                    <input readonly type="text" id="disabledTextInputApellidoP" class="form-control"
-                                        placeholder="">
-                                    <label for="disabledTextInputApellidoM" class="form-label">Apellido Materno</label>
-                                    <input readonly type="text" id="disabledTextInputApellidoM" class="form-control"
-                                        placeholder="">
+                                <div class="row g-3">
+                                    <div class="col">
+                                        <h5>Dni</h5>
+                                        <input readonly type="text" class="form-control" placeholder="DNI"
+                                            aria-label="ID">
+                                    </div>
+                                    <div class="col">
+                                        <h5>Apellido Paterno</h5>
+                                        <input readonly type="text" class="form-control" placeholder="Apellido Paterno"
+                                            aria-label="First nameP">
+                                    </div>
+                                    <div class="col">
+                                        <h5>Apellido Materno</h5>
+                                        <input readonly type="text" class="form-control" placeholder="Apellido Materno"
+                                            aria-label="First nameM">
+                                    </div>
+                                    <div class="col">
+                                        <h5>Nombres</h5>
+                                        <input readonly type="text" class="form-control" placeholder="Nombres"
+                                            aria-label="name">
+                                    </div>
+                                </div>
+                            </form>
+                            <br>
+                            <form>
+                                <div class="row g-3 px-6">
+                                    <div class="col">
+                                        <h5>Teléfono</h5>
+                                        <input type="text" class="form-control" placeholder="N° de Teléfono"
+                                            aria-label="telephone">
+                                    </div>
+                                </div>
+                            </form>
+                            <br>
+                            <form>
+                                <h2>Datos del usuario</h2>
+                                <div class="row g-3 px-6">
+                                    <div class="col">
+                                        <h5>Correo electronico</h5>
+                                        <input type="text" class="form-control" placeholder="exameple@gmail.com"
+                                            aria-label="Email">
+                                    </div>
+                                    <div class="col">
+                                        <h5>Contraseña</h5>
+                                        <div class="input-group mb-3">
+                                            <input type="password" class="form-control" placeholder="**********"
+                                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                                            <button class="btn btn-outline-secondary" type="button"
+                                                id="button-addon2"><em class='bx bx-low-vision'></em> </button>
+                                        </div>
+                                    </div>
                                 </div>
                             </form>
                         </div>
