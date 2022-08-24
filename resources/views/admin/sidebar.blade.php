@@ -21,7 +21,7 @@
                     <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPages">
                         <li class="nav-item">
                             <a class="nav-link" href="/admin/usuario">Usuario</a>
-                            <a class="nav-link" href="#">Roles/Permiso</a>
+                            <a class="nav-link" href="/admin/roles">Roles/Permiso</a>
                             <a class="nav-link" href="#">Informacion de la empresa</a>
 
                         </li>
