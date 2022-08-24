@@ -36,18 +36,21 @@
                                     <br>
                                     <form class="d-flex" role="addDNI">
                                         <br>
-                                        <a href="#"> <button type="button" class="btn btn-primary" enable><em class='bx bx-search-alt'></em> Buscar</button></a>
+                                        <a href="#"> <button type="button" class="btn btn-primary" enable><em
+                                                    class='bx bx-search-alt'></em> Buscar</button></a>
                                     </form>
                                 </div>
                             </div>
                             <form>
-                                <fieldset disabled>
-                                  <div class="mb-3">
+                                <div class="mb-3">
                                     <label for="disabledTextInputApellidoP" class="form-label">Apellido Paterno</label>
-                                    <input type="text" id="disabledTextInputApellidoP" class="form-control" placeholder="">
+                                    <input readonly type="text" id="disabledTextInputApellidoP" class="form-control"
+                                        placeholder="">
                                     <label for="disabledTextInputApellidoM" class="form-label">Apellido Materno</label>
-                                    <input type="text" id="disabledTextInputApellidoM" class="form-control" placeholder="">
-                              </form>
+                                    <input readonly type="text" id="disabledTextInputApellidoM" class="form-control"
+                                        placeholder="">
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>

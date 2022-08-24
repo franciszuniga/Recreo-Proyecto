@@ -19,41 +19,47 @@
                 <div class="page-body page-body-light pt-3 px-2">
                     <div class="card card-header-actions">
                         <div class="card-header">
-                            Tabla usuarios
+                            Portafolio
+                            <a href="/admin/usuario/add" class="btn btn-primary lift"><em class='bx bxs-user-plus'></em>{{ __('Crear Usuario') }}</a>
                         </div>
-                        <div class="card-body">
-                            <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end py-2 px-4">
+                            <form class="input-group">
+                                <input name="busqueda" class="form-control me-md-2" type="search" placeholder="Ingrese nombre" aria-label="Search" autocomplete="off">
+                                <button class="btn btn-outline-primary btn-sm" type="submit"> <em class='bx bx-search-alt'></em>Buscar</button>
                             </form>
-                            <br>
-                            <form class="d-flex" role="add">
-                                <a href="/admin/usuario/add"> <button type="button"  class="btn btn-primary" enable><em class='bx bxs-user-plus'></em> Nuevo Usuario</button></a>
-
-                            </form>
-                            <table class="table">
+                        </div>
+                        <div class="card-body py-2">
+                            <table class="table table-sm table-bordered table-hover " id="datatablesSimple">
                                 <thead>
                                     <tr>
-                                        <th scope="col">DNI</th>
-                                        <th scope="col">Nombres</th>
-                                        <th scope="col">Apellidos</th>
-                                        <th scope="col">Telefono</th>
-                                        <th scope="col">Rol</th>
-                                        <th scope="col">Estado</th>
+                                        <th>DNI</th>
+                                        <th>Apellido Paterno</th>
+                                        <th>Apellido Materno</th>
+                                        <th>Nombres</th>
+                                        <th>Telefono</th>
+                                        <th>Rol</th>
+                                        <th>Estado</th>
+                                        <th>Acciones</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-group-divider">
+
+                                <tbody>
                                     <tr>
-                                        <th scope="row"></th>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
+                                        <td>80156048</td>
+                                        <td>Maiz</td>
+                                        <td>Echevarria</td>
+                                        <td>Junior Saul</td>
+                                        <td>76988211</td>
+                                        <td>Administrador</td>
+                                        <td><div class="badge bg-primary text-white rounded-pill">Activo</div></td>
+                                        <td>
+                                            <button class="btn btn-datatable btn-icon btn-transparent-table me-2"><i class='bx bx-dots-vertical-rounded'></i></button>
+                                            <button class="btn btn-datatable btn-icon btn-transparent-table"><i class='bx bx-trash' ></i></button>
+                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
+
                         </div>
                     </div>
                 </div>
