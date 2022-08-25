@@ -35,7 +35,7 @@
                                 <thead>
                                     <tr>
                                         <th>Rol</th>
-                                        <th>Usuario</th>
+                                        <th>USUARIO</th>
                                         <th>Roles</th>
                                         <th>Empresa</th>
                                         <th>Ver factura</th>
