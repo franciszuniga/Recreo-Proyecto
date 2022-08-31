@@ -26,10 +26,10 @@ class CreateUsersTable extends Migration
         });
         DB::table('users')->insert([
             'id'=>'1',
-            'name'=>'Maiz',
-            'email'=>'maiz@gmail.com',
+            'name'=>'Bryan',
+            'email'=>'bryan@gmail.com',
             'tipo_usuario'=>'1',
-            'password'=>bcrypt('123456')
+            'password'=>bcrypt('12345')
         ]);
     }
 

@@ -3,7 +3,7 @@
     <!-- * * Tip * * You can use text or an image for your navbar brand.-->
     <!-- * * * * * * When using an image, we recommend the SVG format.-->
     <!-- * * * * * * Dimensions: Maximum height: 32px, maximum width: 240px-->
-    <a class="navbar-brand pe-3 ps-4 ps-lg-4" href="index.html">Rayo SAC</a>
+    <a class="navbar-brand pe-3 ps-4 ps-lg-4" href="index.html">LA FORESTA<i class='bx bxs-tree-alt' ></i></a>
     <!-- Sidenav Toggle Button-->
     <button class="btn btn-icon btn-transparent-dark order-1 order-lg-0 me-2" id="sidebarToggle"><i class='bx bx-menu menu-list'></i></button>
     <!-- Navbar Items-->
@@ -96,8 +96,8 @@
                 <h6 class="dropdown-header d-flex align-items-center dropdown-notifications-header">
                     <em class='bx bxs-user'></em>
                     <div class="dropdown-user-details">
-                        <div class="dropdown-user-details-name">RAYO SAC</div>
-                        <div class="dropdown-user-details-email"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="94e2f8e1faf5d4f5fbf8baf7fbf9">[email&#160;protected]</a></div>
+                        <div class="dropdown-user-details-name"><div class="sidenav-footer-title">{{Auth::user()->name}}</div></div>
+                        <div class="sidenav-footer-title">{{Auth::user()->email}}</div>
                     </div>
                 </h6>
                 <!--<div class="dropdown-divider"></div>-->
